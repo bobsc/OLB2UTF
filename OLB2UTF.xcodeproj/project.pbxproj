@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 		8DD76F6A0486A84900D96B5E /* OLB2UTF.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* OLB2UTF.1 */; };
+		B50B1EC5150BC6430018BF28 /* greek.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50B1EC1150BC6430018BF28 /* greek.cpp */; };
+		B50B1EC6150BC6430018BF28 /* hebrew.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B50B1EC3150BC6430018BF28 /* hebrew.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,10 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8DD76F6C0486A84900D96B5E /* OLB2UTF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OLB2UTF; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50B1EC1150BC6430018BF28 /* greek.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = greek.cpp; sourceTree = "<group>"; };
+		B50B1EC2150BC6430018BF28 /* greek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greek.h; sourceTree = "<group>"; };
+		B50B1EC3150BC6430018BF28 /* hebrew.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hebrew.cpp; sourceTree = "<group>"; };
+		B50B1EC4150BC6430018BF28 /* hebrew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hebrew.h; sourceTree = "<group>"; };
 		C6859E8B029090EE04C91782 /* OLB2UTF.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OLB2UTF.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +60,10 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B50B1EC1150BC6430018BF28 /* greek.cpp */,
+				B50B1EC2150BC6430018BF28 /* greek.h */,
+				B50B1EC3150BC6430018BF28 /* hebrew.cpp */,
+				B50B1EC4150BC6430018BF28 /* hebrew.h */,
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
 			);
 			name = Source;
@@ -126,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				B50B1EC5150BC6430018BF28 /* greek.cpp in Sources */,
+				B50B1EC6150BC6430018BF28 /* hebrew.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
