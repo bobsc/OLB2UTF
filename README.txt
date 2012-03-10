@@ -14,3 +14,8 @@ Recommended usage:
 4. Type ctrl-D to signal end of file
 The act of pasting into the terminal window apparently converts
 high-ascii characters like the paragraph symbol from the font encoding into utf-8.
+This program will then convert the ascii codes used by OLB to the Greek or Hebrew Unicode equivalent.
+For Hebrew, the program will also attempt to re-order the characters on each line 
+so that the apparent right-to-left flow is maintained for the Hebrew characters. 
+So far I have not figured out a perfect algorithm for the re-ordering. I think I have it correct
+for the Hebrew characters, but the non-Hebrew characters such as verse numbers may be "not quite right".
