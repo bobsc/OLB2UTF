@@ -2,6 +2,12 @@
 
 OLB2UTF.xcodeproj/ibobsc.*
 
+OLB2UTF.xcodeproj/project.xcworkspace/
+
+OLB2UTF.xcodeproj/xcuserdata/
+
 OLB2UTF.1
 
 build/
+
+DerivedData/
