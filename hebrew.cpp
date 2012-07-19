@@ -155,7 +155,7 @@ static bool GetNextRun(char *linebuf, int start, int len, int &runLen, int &runT
 	for (int i=start; i<len; i++) {
 		char ch = linebuf[i];
 		int charType = kNotHebrew;
-		if (ch >= 'a' && ch <= 'z'
+		if ((ch >= 'a' && ch <= 'z')
 			|| ch == 'K' || ch == 'M' || ch == 'N' || ch == 'P' || ch == 'U') {
 			charType = kHebrew;
 		} else if (ch == '-' || ch == ':' || ch == ' ') {

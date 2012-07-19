@@ -51,7 +51,7 @@ int convertGreek () {
 	fwrite(outbuf, 1, 3, stdout);
 	
 	size_t num(0);
-	while (num = fread(inbuf, 1, 256, stdin)) {
+	while ((num = fread(inbuf, 1, 256, stdin))) {
 		// convert num characters to output buffer
 		char *inP = inbuf;
 		char *outP = outbuf;
